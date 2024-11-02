@@ -1,6 +1,4 @@
 /* eslint-disable no-unused-vars */
-
-
 import bell_icon from './bell.png'
 import home_icon from './home.png'
 import like_icon from './like.png'
@@ -41,9 +39,18 @@ import img13 from './img13.jpg'
 import img14 from './img14.jpg'
 import img15 from './img15.jpg'
 import img16 from './img16.jpg'
+import img20 from './img20.jpeg'
+import img21 from './img21.jpeg'
+import img22 from './img22.jpeg'
+import img23 from './img23.jpeg'
+
 import song1 from  './song1.mp3'
 import song2 from  './song2.mp3'
 import song3 from  './song3.mp3'
+import song10 from  './song10.mp3'
+import song11 from  './song11.mp3'
+import song12 from  './song12.mp3'
+import song13 from  './song13.mp3'
 
 export const assets = {
     bell_icon,
@@ -120,35 +127,35 @@ export const albumsData = [
 export const songsData = [
     {
         id:0,
-        name: "Song One",
-        image: img1,
-        file:song1,
+        name: "Dandelions",
+        image: img20,
+        file:song10,
         desc:"Put a smile on your face with these happy tunes",
-        duration:"3:00"
+        duration:"3:48"
     },
     {
         id:1,
-        name: "Song Two",
-        image: img2,
-        file:song2,
+        name: "Perfect",
+        image: img21,
+        file:song11,
         desc:"Put a smile on your face with these happy tunes",
-        duration:"2:20"
+        duration:"4:23"
     },
     {
         id:2,
-        name: "Song Three",
-        image: img3,
-        file:song3,
+        name: "Fear Song",
+        image: img22,
+        file:song12,
         desc:"Put a smile on your face with these happy tunes",
-        duration:"2:32"
+        duration:"3:16"
     },
     {
         id:3,
-        name: "Song Four",
-        image: img4,
-        file:song1,
+        name: "Uppenantha",
+        image: img23,
+        file:song13,
         desc:"Put a smile on your face with these happy tunes",
-        duration:"2:50"
+        duration:"5:27"
     },
     {
         id:4,
@@ -181,5 +188,37 @@ export const songsData = [
         file:song2,
         desc:"Put a smile on your face with these happy tunes",
         duration:"2:35"
+    },
+    {
+        id:8,
+        name: "Song One",
+        image: img1,
+        file:song1,
+        desc:"Put a smile on your face with these happy tunes",
+        duration:"3:00"
+    },
+    {
+        id:9,
+        name: "Song Two",
+        image: img2,
+        file:song2,
+        desc:"Put a smile on your face with these happy tunes",
+        duration:"2:20"
+    },
+    {
+        id:10,
+        name: "Song Three",
+        image: img3,
+        file:song3,
+        desc:"Put a smile on your face with these happy tunes",
+        duration:"2:32"
+    },
+    {
+        id:11,
+        name: "Song Four",
+        image: img4,
+        file:song1,
+        desc:"Put a smile on your face with these happy tunes",
+        duration:"2:50"
     }
 ]
